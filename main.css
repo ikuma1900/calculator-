@@ -1,0 +1,43 @@
+#container {
+    display: inline-block;
+    background-color: orange;
+    padding: 15px
+}
+
+#result {
+    height: 50px;
+    border: solid 2px;
+    background-color: white;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 25px;
+}
+
+body {
+    text-align: center;
+    padding-top: 40px;
+}
+
+table {
+    table-layout: fixed;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+}
+
+button {
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    border: solid 2px;
+    cursor: pointer;
+    background-color: white;
+}
+
+button:active {
+    background-color: lightgray;
+}
